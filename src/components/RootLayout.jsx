@@ -106,8 +106,8 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="">My Work</NavigationItem>
+        <NavigationItem href="">About Me</NavigationItem>
       </NavigationRow>
     </nav>
   )
@@ -185,17 +185,6 @@ function RootLayoutInner({ children }) {
               />
             </div>
             <Navigation />
-            <div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
-              <Container>
-                <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
-                  <div className="sm:border-l sm:border-transparent sm:pl-16">
-                    <h2 className="font-display text-base font-semibold text-white">
-                      Follow us
-                    </h2>
-                  </div>
-                </div>
-              </Container>
-            </div>
           </motion.div>
         </motion.div>
       </header>

@@ -7,6 +7,9 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
+import myPhoto from '@/images/myPhoto.jpg'
+
+
 
 function Section({ title, image, children }) {
   return (
@@ -38,23 +41,27 @@ function Section({ title, image, children }) {
   )
 }
 
+// Import statements remain unchanged
+// ...
+
+// Section component remains unchanged
+// ...
+
 function Discover() {
-  
   return (
     <Section title="Project 1" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-         My deegre project in{' '}
-          <strong className="font-semibold text-neutral-950"> Reac</strong> and
-          Strapi, is a volvo webshop butik to rent out Volvo Cars.
+          My degree project in{' '}
+          <strong className="font-semibold text-neutral-950">React</strong> and
+          Strapi, is a Volvo webshop butik to rent out Volvo Cars.
         </p>
       </div>
-
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
       </h3>
     </Section>
-  )
+  );
 }
 
 function Build() {
@@ -62,20 +69,18 @@ function Build() {
     <Section title="Book Your Trip" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-        
-         Website where you can find your flight in real time made in <strong className="font-semibold text-neutral-950"> Next.js</strong> and MongoDb.
+          Website where you can find your flight in real time made in{' '}
+          <strong className="font-semibold text-neutral-950">Next.js</strong> and MongoDB.
         </p>
       </div>
-
       <Blockquote
         author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
         className="mt-12"
       >
-        Studio were so regular with their progress updates we almost began to
-        think they were automated!
+        Studio was so regular with their progress updates we almost began to think they were automated!
       </Blockquote>
     </Section>
-  )
+  );
 }
 
 function Deliver() {
@@ -83,32 +88,31 @@ function Deliver() {
     <Section title="Project 3" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Portfolio made in {' '}
-          <strong className="font-semibold text-neutral-950">
-          React and Node.js
-          </strong>
-          . This allows us to work with other collegues together.
+          Portfolio made in{' '}
+          <strong className="font-semibold text-neutral-950">React and Node.js</strong>. This allows us to work with other colleagues together.
         </p>
       </div>
     </Section>
-  )
+  );
 }
-
 
 export const metadata = {
   title: 'Our Process',
-  description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
-}
+  description: 'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+};
 
 export default function Process() {
-  
   return (
     <>
-      <PageIntro eyebrow="Intro" title="Who I'am?">
-        <p>
-        Team Manager Backup with approximately 5 year of practical experience. I'm seeking to obtain a creative and challenging position that utilizes my current knowledge of web development and design. I have a positive attitude and I am always eager to learn new skills. I am comfortable working both independently and as part of a team.
-        </p>
+      <PageIntro eyebrow="Intro" title="Who I am?">
+        <div className="flex justify-center items-center flex-col mb-10">
+           <Section image={{ src: myPhoto }}>
+
+    </Section>
+          <p className="text-center">
+            Team Manager Backup with approximately 5 years of practical experience...
+          </p>
+        </div>
       </PageIntro>
 
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
@@ -119,5 +123,5 @@ export default function Process() {
 
       <ContactSection />
     </>
-  )
+  );
 }

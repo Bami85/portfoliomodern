@@ -8,7 +8,6 @@ import { List, ListItem } from '@/components/List'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
@@ -44,51 +43,29 @@ function Section({ title, image, children }) {
 }
 
 function Discover() {
+  
   return (
     <Section title="Project 1" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
-        {/* <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
-        </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
+         My deegre project in{' '}
+          <strong className="font-semibold text-neutral-950"> Reac</strong> and
+          Strapi, is a volvo webshop butik to rent out Volvo Cars.
         </p>
-        <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
-        </p> */}
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Competence
+        Included in this phase
       </h3>
-      <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
-      </TagList>
     </Section>
   )
 }
 
 function Build() {
   return (
-    <Section title="Project 2" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
-        {/* <p>
+        <p>
           Based off of the discovery phase, we develop a comprehensive roadmap
           for each product and start working towards delivery. The roadmap is an
           intricately tangled mess of technical nonsense designed to drag the
@@ -106,11 +83,11 @@ function Build() {
           9pm, several days after the initial email. This reinforces the general
           aura that we are very busy and dissuades clients from asking for
           changes.
-        </p> */}
+        </p>
       </div>
 
       <Blockquote
-        author={{ name: 'Ali Bami', role: 'Web Developer' }}
+        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
         className="mt-12"
       >
         Studio were so regular with their progress updates we almost began to
@@ -122,9 +99,9 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Project 3" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
-        {/* <p>
+        <p>
           About halfway through the Build phase, we push each project out by 6
           weeks due to a change in{' '}
           <strong className="font-semibold text-neutral-950">
@@ -150,7 +127,7 @@ function Deliver() {
             maintenance
           </strong>{' '}
           retainer.
-        </p> */}
+        </p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
@@ -186,13 +163,13 @@ function Values() {
 
       <SectionIntro
         eyebrow="Our values"
-        title="Challengeas"
+        title="Balancing reliability and innovation"
       >
         <p>
-          {/* We strive to stay at the forefront of emerging trends and
+          We strive to stay at the forefront of emerging trends and
           technologies, while completely ignoring them and forking that old
           Rails project we feel comfortable using. We stand by our core values
-          to justify that decision. */}
+          to justify that decision.
         </p>
       </SectionIntro>
 
@@ -202,6 +179,26 @@ function Values() {
             The first part of any partnership is getting our designer to put
             your logo in our template. The second step is getting them to do the
             colors.
+          </GridListItem>
+          <GridListItem title="Efficient">
+            We pride ourselves on never missing a deadline which is easy because
+            most of the work was done years ago.
+          </GridListItem>
+          <GridListItem title="Adaptable">
+            Every business has unique needs and our greatest challenge is
+            shoe-horning those needs into something we already built.
+          </GridListItem>
+          <GridListItem title="Honest">
+            We are transparent about all of our processes, banking on the simple
+            fact our clients never actually read anything.
+          </GridListItem>
+          <GridListItem title="Loyal">
+            We foster long-term relationships with our clients that go beyond
+            just delivering a product, allowing us to invoice them for decades.
+          </GridListItem>
+          <GridListItem title="Innovative">
+            The technological landscape is always evolving and so are we. We are
+            constantly on the lookout for new open source projects to clone.
           </GridListItem>
         </GridList>
       </Container>
@@ -216,11 +213,12 @@ export const metadata = {
 }
 
 export default function Process() {
+  
   return (
     <>
-      <PageIntro eyebrow="Our process" title="Who I'am?">
+      <PageIntro eyebrow="Intro" title="Who I'am?">
         <p>
-          My ressumo chi sono
+        Team Manager Backup with approximately 5 year of practical experience. I'm seeking to obtain a creative and challenging position that utilizes my current knowledge of web development and design. I have a positive attitude and I am always eager to learn new skills. I am comfortable working both independently and as part of a team.
         </p>
       </PageIntro>
 
@@ -236,4 +234,3 @@ export default function Process() {
     </>
   )
 }
-

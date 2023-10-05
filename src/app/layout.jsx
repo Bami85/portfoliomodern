@@ -4,8 +4,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: 'Ali',
-    default: 'ALi - Göteborg',
+    template: '%s - Studio',
+    default: 'Studio - Award winning developer studio based in Denmark',
   },
 }
 

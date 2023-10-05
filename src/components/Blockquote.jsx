@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import { Border } from '@/components/Border'
-
 function BlockquoteWithImage({ author, children, className, image }) {
   return (
     <figure
@@ -34,16 +32,7 @@ function BlockquoteWithImage({ author, children, className, image }) {
 
 function BlockquoteWithoutImage({ author, children, className }) {
   return (
-    <Border position="left" className={clsx('pl-8', className)}>
-      <figure className="text-sm">
-        <blockquote className="text-neutral-600 [&>*]:relative [&>:first-child]:before:absolute [&>:first-child]:before:right-full [&>:first-child]:before:content-['“'] [&>:last-child]:after:content-['”']">
-          {typeof children === 'string' ? <p>{children}</p> : children}
-        </blockquote>
-        <figcaption className="mt-6 font-semibold text-neutral-950">
-          {author.name}, {author.role}
-        </figcaption>
-      </figure>
-    </Border>
+ <h1></h1>
   )
 }
 

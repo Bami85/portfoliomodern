@@ -196,13 +196,13 @@ export default function Process() {
       {/* Footer Section */}
       <footer className="bg-neutral-950 text-white py-6 text-center">
         <div className="flex justify-center space-x-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Bami85" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ali-b-374813135/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="mailto:youremail@example.com">Email</a>
+          <a href="ali.bami@studio.unibo.it">Email</a>
         </div>
       </footer>
     </>

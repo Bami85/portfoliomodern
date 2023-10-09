@@ -8,8 +8,6 @@ import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
 import imageHotel from '@/images/hotel.jpg'
-import myPhoto from '@/images/myPhoto.jpg'
-import Image from 'next/image'
 import React from 'react';
 import Link from 'next/link'
 
@@ -176,8 +174,8 @@ function Deliver() {
 }
 
 export const metadata = {
-  title: 'Our Process',
-  description: 'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+  title: 'ali.bami',
+  description: '',
 };
 
 export default function Process() {

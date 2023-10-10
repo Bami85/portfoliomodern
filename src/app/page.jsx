@@ -60,7 +60,7 @@ const people = [
 
 function Avatar() {
   return (
-    <div className="bg-white py-24 md:py-32">
+    <div className="py-24 md:py-25 bg-cyan-100 text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
         <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {people.map((person) => (
@@ -113,7 +113,7 @@ function Avatar() {
 function Discover() {
   return (
     <Section title="Project 1" image={{ src: imageWhiteboard }}>
-      <div className="space-y-6 text-base text-neutral-600">
+      <div className="space-y-6 text-base text-neutral-600 ">
         <p>
           My degree project in{' '}
           <strong className="font-semibold text-neutral-950">React</strong> and
@@ -216,7 +216,7 @@ export default function Process() {
       <ContactSection />
 
       {/* Footer Section */}
-      <footer className="bg-neutral-950 text-white py-6 text-center">
+      <footer className="py-12 md:py-16 bg-sky-300 text-white">
         <div className="flex justify-center space-x-4">
           <a href="https://github.com/Bami85" target="_blank" rel="noopener noreferrer">
             GitHub

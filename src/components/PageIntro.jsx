@@ -1,8 +1,3 @@
-import clsx from 'clsx'
-
-import { Container } from '@/components/Container'
-import { FadeIn } from '@/components/FadeIn'
-
 export function PageIntro({ eyebrow, title, children, centered = false }) {
   return (
     <Container

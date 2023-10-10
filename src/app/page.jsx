@@ -55,7 +55,7 @@ const people = [
     linkedinUrl: 'https://www.linkedin.com/in/ali-b-374813135/',
     email: ''
   },
-  // More people...
+
 ]
 
 function Avatar() {
@@ -108,6 +108,10 @@ function Avatar() {
     </div>
   )
 }
+
+
+
+
 
 
 function Discover() {

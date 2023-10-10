@@ -6,6 +6,7 @@ import PageIntro from './pageIntro'
 import { StylizedImage } from '../components/StylizedImage'
 import imageLaptop from '../images/laptop.jpg'
 import imageMeeting from '../images/meeting.jpg'
+import imagePhone from '../images/phone.png'
 import imageWhiteboard from '../images/whiteboard.jpg'
 import imageHotel from '../images/hotel.jpg'
 import React from 'react';
@@ -195,6 +196,31 @@ export const metadata = {
   description: '',
 };
 
+function PhoneShop() {
+  return (
+    <Section title="Project 5" image={{ src: imagePhone, shape: 2 }}>
+      <div className="space-y-6 text-base text-neutral-600">
+        <p>
+         Shop your phone {' '}
+          <strong className="font-semibold text-neutral-950">Html, JavaScript </strong>
+        </p>
+      </div>
+      <Link href="https://tech-store-five.vercel.app">
+    <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
+      Visit <strong className="font-semibold text-neutral-950"> https://tech-store-five.vercel.app</strong>
+    </h3>
+    </Link>
+    </Section>
+  );
+}
+
+
+
+export const phonedata = {
+  title: 'webshop',
+  description: '',
+};
+
 
 
 
@@ -213,6 +239,7 @@ export default function Process() {
         <Build />
         <Deliver />
         <HotelToni />
+        <PhoneShop/>
   
 
       </div>

@@ -12,7 +12,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion} from 'framer-motion'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 
 
 const RootLayoutContext = createContext(null)
@@ -222,6 +222,3 @@ export function RootLayout({ children }) {
     </RootLayoutContext.Provider>
   )
 }
-
-
-

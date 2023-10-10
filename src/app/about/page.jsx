@@ -7,7 +7,7 @@ export default function CvPage() {
 
   return (
 
-    <main className="relative isolate bg-green text-white">
+    <main className="relative isolate bg-black text-white">
       {/* CTA section */}
       <div className="relative isolate -z-10 mt-32 sm:mt-40">
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -18,11 +18,6 @@ export default function CvPage() {
               alt=""
             />
             <div className="w-full flex-auto">
-              <Link href="/">
-                 <h2 className="text-3xl font-bold tracking-tight bg-black text-white sm:text-4xl">
-              Homepage
-              </h2>
-              </Link>
               <ul
                 role="list"
                 className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2"

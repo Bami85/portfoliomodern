@@ -41,13 +41,13 @@ export default function Page() {
                 </a>
               </div>
             </FadeIn>
-            <div className="lg:order-1 flex-shrink-0">
+            {/* <div className="lg:order-1 flex-shrink-0">
               <img
                 className="h-96 w-auto flex-none rounded-2xl object-cover shadow-xl"
                 src="https://avatars.githubusercontent.com/u/91563447?v=4"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

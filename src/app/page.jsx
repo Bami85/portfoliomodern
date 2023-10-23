@@ -50,7 +50,7 @@ const people = [
     name: 'Ali Bami',
     role: 'Web Developer / CEO',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4E03AQEt8tW-sxhoFw/profile-displayphoto-shrink_400_400/0/1696878699766?e=1702512000&v=beta&t=bicOKT4E2ze5MyapKZqo0EFIuW_NzRt_1rX3ofz-wwE',
+      'https://avatars.githubusercontent.com/u/91563447?v=4',
     bio: 'Team Manager Backup with approximately 5 year of practical experience. I m seeking to obtain a creative and challenging position that utilizes my current knowledge of web development and design. I have a positive attitude and I am always eager to learn new skills. I am comfortable working both independently and as part of a team',
     githubUrl: 'https://github.com/Bami85', 
     linkedinUrl: 'https://www.linkedin.com/in/ali-b-374813135/',

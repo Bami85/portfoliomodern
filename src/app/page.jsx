@@ -54,7 +54,8 @@ const people = [
     bio: 'Team Manager Backup with approximately 5 year of practical experience. I m seeking to obtain a creative and challenging position that utilizes my current knowledge of web development and design. I have a positive attitude and I am always eager to learn new skills. I am comfortable working both independently and as part of a team',
     githubUrl: 'https://github.com/Bami85', 
     linkedinUrl: 'https://www.linkedin.com/in/ali-b-374813135/',
-    email: ''
+    email: '',
+    cv:''
   },
 
 ]
@@ -71,6 +72,11 @@ function Avatar() {
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
                 <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
+                {/* <div className='flex items-center self-start mt-2'>
+                <Link href ="/CV.pdf" target ={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'>Show CV
+                
+                </Link>
+                </div>  */}
                 <ul role="list" className="mt-6 flex gap-x-6">
                   <li>
                     <a href={person.githubUrl} className="text-gray-400 hover:text-gray-500">
@@ -100,6 +106,7 @@ function Avatar() {
                       </svg>
                     </a>
                   </li>
+                  
                 </ul>
               </div>
             </li>

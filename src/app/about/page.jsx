@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '../../components/Container';
 import { FadeIn } from '../../components/FadeIn';
+import Link from 'next/link';
 
 const team = [
   {
@@ -34,14 +35,18 @@ export default function Page() {
                 </ul>
                 <a
                   className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 text-sm font-semibold leading-6 text-indigo-400"
-                  href="CV.pdf"
+                  href="/CV.pdf"
                   download
                 >
                   Download CV
                 </a>
-                {' '}
-                <span aria-hidden="true">&rarr;</span>
-              </div>
+                {/* <div className='flex items-center self-start mt-2'>
+                <Link href ="/CV.pdf" target ={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'>Show CV
+                
+                </Link>
+                </div>  */}
+
+                </div>
             </FadeIn>
          
           </div>

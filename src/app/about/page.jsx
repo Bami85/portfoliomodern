@@ -34,23 +34,20 @@ export default function Page() {
                 </ul>
                 <a
                   className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 text-sm font-semibold leading-6 text-indigo-400"
-                  href="/path/to/your/Cv.pdf"  // Uppdatera sökvägen till din CV-fil här
-                  download  // Detta attribut gör att länken fungerar som nedladdningslänk
+                  href="/images/Cv.pdf" 
+                  download 
                 >
-                  Download My CV
+                  Download CV
                 </a>
               </div>
             </FadeIn>
-            {/* <div className="lg:order-1 flex-shrink-0">
-              <img
-                className="h-96 w-auto flex-none rounded-2xl object-cover shadow-xl"
-                src="https://avatars.githubusercontent.com/u/91563447?v=4"
-                alt=""
-              />
-            </div> */}
+         
           </div>
         ))}
       </div>
     </Container>
   );
 }
+
+
+

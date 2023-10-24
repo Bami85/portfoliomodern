@@ -34,7 +34,7 @@ export default function Page() {
                 </ul>
                 <a
                   className="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 text-sm font-semibold leading-6 text-indigo-400"
-                  href="/images/Cv.pdf" 
+                  href="Cv.pdf" 
                   download 
                 >
                   Download CV

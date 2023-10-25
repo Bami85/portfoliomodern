@@ -40,12 +40,10 @@ export default function Page() {
                 >
                   Download CV
                 </a>
-                <div className='flex items-center self-start mt-2'>
-                <Link href ="/CV.pdf" target ={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'>Show CV
+               
+                 <Link href ="/CV.pdf" target ={"_blank"} className='mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 text-sm font-semibold leading-6 text-indigo-400'>Show CV
                 
                 </Link>
-                </div> 
-
                 </div>
             </FadeIn>
          

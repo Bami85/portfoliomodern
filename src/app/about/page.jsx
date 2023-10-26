@@ -7,7 +7,7 @@ const activity = [
   {
     id: 4,
     type: 'comment',
-    person: { name: 'Ali Bami', href: '' },
+    person: { name: 'Born', href: '' },
     imageUrl:
       'https://cdn.britannica.com/03/6203-050-E0C843BA/Albania-map-boundaries-cities-locator.jpg',
     comment:

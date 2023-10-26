@@ -10,7 +10,7 @@ const team = [
       {
         name: 'Ali Bami',
         role: 'Web Developer / JavaScript/ React/ WordPress/ Next.js/ Node.js/Tailwind/MaterialUI',
-        description: 'Junior Web Developer with approximately 1 year of practical experience and 2 years of web development school, I`m seeking to obtain a creative and challenging position that utilizes my current knowledge of web development and design. I have a positive attitude and I am always eager to learn new skills. I am comfortable working both independently and as part of a team.',
+        description: 'Hej! Jag är en entusiastisk webbutvecklare som älskar att skapa innovativa och användarvänliga webblösningar. 🚀 Kodning är min kreativa lekplats och jag är ständigt fascinerad av dess möjligheter. Fotboll har varit min passion sedan barndomen och att kombinera det med min kärlek för webbutveckling är en riktig glädje. På fritiden hittar du mig antingen på gymmet, eller simmandes i poolen, njutandes av känslan av frihet i vattnet. Att lära mig nya färdigheter är något jag alltid är ivrig att göra, och jag trivs både med att arbeta självständigt och i team. Jag ser fram emot spännande utmaningar och möjligheter inom webbutvecklingens värld! 💻😊.',
       },
     ],
   },

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChatBubbleLeftEllipsisIcon, TagIcon, UserCircleIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link';
 
 const activity = [
 
